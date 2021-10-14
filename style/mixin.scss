@@ -1,0 +1,34 @@
+@mixin fonts {
+    font: {
+        size: 26px;
+        family: 'Montserrat-SemiBold';
+        weight: 700;
+        style: normal;
+    }
+}
+
+@mixin fonts1 {
+    font: {
+        size: 14px;
+        family: 'Montserrat-Regular';
+        weight: 400;
+        style: normal;
+    }
+}
+
+@mixin fonts2 {
+    font: {
+        family: 'Montserrat-Medium';
+        weight: 500;
+        size: 14px;
+        style: normal;
+    }
+}
+    
+@mixin robo {
+    font: {
+        family: 'Roboto-Light';
+        weight: 300;
+        size: 24px;
+    }
+}
